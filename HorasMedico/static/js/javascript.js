@@ -1,4 +1,3 @@
-/* Index.html */
 function validarFormulario() {
     const cedula = document.getElementById("cedula").value.trim();
     const correo = document.getElementById("correo").value.trim();
@@ -25,4 +24,3 @@ function validarFormulario() {
     alert("Formulario enviado correctamente ✅");
     return true;
 }
-/* Index.html */
