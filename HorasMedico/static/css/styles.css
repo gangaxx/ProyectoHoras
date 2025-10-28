@@ -1,0 +1,94 @@
+/* Index.html */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #f8fafc, #e2e8f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    width: 360px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.8px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.input-box input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.1);
+}
+
+.telefono {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.codigo {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 10px;
+    color: #374151;
+    font-size: 0.9rem;
+    border: 1px solid #cbd5e1;
+}
+
+.btn {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.acciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.acciones label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+/* Index.html */
